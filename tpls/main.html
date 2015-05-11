@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+    <title>angular路由</title>
+    <script src="http://cdn.bootcss.com/angular.js/1.2.0/angular.min.js"></script>
+    <script src="js/angular-ui-router.js"></script>
+    <script src="js/App.js"></script>
+</head>
+<body ng-app="myApp">
+    <h1>Main...</h1>
+    <div class="row">
+    	<div class="col-md-4">
+    		<div ui-view="sider">
+    			
+    		</div>
+    	</div>
+    	<div class="col-md-8">
+			<div ui-view="list">
+    			
+    		</div>   		
+    	</div>		
+    </div>
+
+
+</body>
+<html>
